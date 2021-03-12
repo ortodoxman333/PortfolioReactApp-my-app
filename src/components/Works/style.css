@@ -1,0 +1,12 @@
+.works {
+    flex-grow: 1;
+}
+
+.works h1 {
+    margin-bottom: 20px;
+    color: rgb(247, 235, 187);
+}
+
+.works p {
+    color: cornsilk;
+}

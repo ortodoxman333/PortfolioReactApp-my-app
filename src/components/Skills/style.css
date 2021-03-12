@@ -1,0 +1,36 @@
+.skills {
+    flex-grow: 1;
+}
+
+.skills h1 {
+    margin-bottom: 20px;
+    color: rgb(248, 237, 191);
+}
+
+.content {
+    display: grid;
+    font-size: 24px;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content div {
+    margin-bottom: 25px;
+}
+
+.content strong {
+    line-height: 25px;
+    padding-bottom: 15px;
+    display:block;
+    color: rgb(189, 183, 162);
+}
+
+.content li {
+    margin-bottom: 10px;
+    color: cornsilk;
+}
+
+@media (min-width: 800px) {
+    .content {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
