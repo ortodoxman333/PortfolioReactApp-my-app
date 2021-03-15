@@ -33,7 +33,7 @@ const handleClose = () => {
       <div className="logo">
         <Link to="/">
          <img 
-         src="slovo-s.png"
+         src="https://github.com/ortodoxman333/PortfolioReactApp-my-app/blob/main/public/slovo-s.png"
          alt="brand"
         />
         </Link>
@@ -41,7 +41,7 @@ const handleClose = () => {
 
      <div className="list-wrapper">
          <img
-         src="menu-bar.png"
+         src="https://github.com/ortodoxman333/PortfolioReactApp-my-app/blob/main/public/menu-bar.png"
          alt="Menu bars"
           style={{opacity: !open ? 1 : 0}}
          onClick={() => {
@@ -49,7 +49,7 @@ const handleClose = () => {
          }}
          />
          <img
-         src="menu-cross.png"
+         src="https://github.com/ortodoxman333/PortfolioReactApp-my-app/blob/main/public/menu-cross.png"
          alt="Menu.cross"
          style={{opacity: open ? 1 : 0}}
          onClick={() => {
@@ -107,3 +107,5 @@ const handleClose = () => {
 
 
 export default NavBar;
+
+
