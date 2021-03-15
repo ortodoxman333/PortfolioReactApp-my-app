@@ -6,7 +6,7 @@ const Footer = () => {
        href="https://www.facebook.com/sasa.djuric.315"
        target="_blank" rel='noreferrer'>
        <img
-           src="https://github.com/ortodoxman333/PortfolioReactApp-my-app/blob/main/public/face-logo.png"
+           src={`${process.env.PUBLIC_URL}/face-logo.png`}
            alt="face"
            />
        </a>
@@ -14,7 +14,7 @@ const Footer = () => {
        href= "https://www.instagram.com/sasadjuric333/"
        target="_blank" rel='noreferrer' >
        <img
-           src="https://github.com/ortodoxman333/PortfolioReactApp-my-app/blob/main/public/insta-logo.png"
+           src={`${process.env.PUBLIC_URL}/insta-logo.png`}
            alt="insta"
            />
        </a>
@@ -22,7 +22,7 @@ const Footer = () => {
            href="https://www.linkedin.com/in/sasa-djuric-a259331b8/"
            target="_blank" rel='noreferrer'>
        <img
-           src="https://github.com/ortodoxman333/PortfolioReactApp-my-app/blob/main/public/linkedin-logo.png"
+           src={`${process.env.PUBLIC_URL}/linkedin-logo.png`}
            alt="linkedin"
            />
        </a>
@@ -30,7 +30,7 @@ const Footer = () => {
        href="https://github.com/ortodoxman333"
        target="_blank" rel='noreferrer' >
        <img
-           src="https://github.com/ortodoxman333/PortfolioReactApp-my-app/blob/main/public/git-logo.png"
+           src={`${process.env.PUBLIC_URL}/git-logo.png`}
            alt="git"
            />
        </a>
